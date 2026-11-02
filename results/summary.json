@@ -1,0 +1,42 @@
+[
+  {
+    "size": "1m",
+    "mode": "peterson",
+    "loops": 1000000,
+    "median": 510.545,
+    "min": 482.985,
+    "max": 536.082,
+    "cpu": 1020.092,
+    "throughput": 3.9173824050769275
+  },
+  {
+    "size": "1m",
+    "mode": "mutex",
+    "loops": 1000000,
+    "median": 32.897,
+    "min": 31.413,
+    "max": 33.263,
+    "cpu": 51.926,
+    "throughput": 60.79581724777335
+  },
+  {
+    "size": "5m",
+    "mode": "peterson",
+    "loops": 5000000,
+    "median": 2546.903,
+    "min": 2512.222,
+    "max": 2567.079,
+    "cpu": 5091.7,
+    "throughput": 3.926337202476891
+  },
+  {
+    "size": "5m",
+    "mode": "mutex",
+    "loops": 5000000,
+    "median": 162.558,
+    "min": 159.141,
+    "max": 165.679,
+    "cpu": 255.673,
+    "throughput": 61.51650487825884
+  }
+]

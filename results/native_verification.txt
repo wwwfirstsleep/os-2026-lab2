@@ -1,0 +1,3 @@
+PASS work/repo/results/native_1m.csv: 15 rows; synchronized totals verified; none detections=5
+PASS work/repo/results/native_5m.csv: 15 rows; synchronized totals verified; none detections=5
+PASS work/repo/results/native_amplify.csv: 3 rows; synchronized totals verified; none detections=1
